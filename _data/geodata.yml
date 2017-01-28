@@ -5,6 +5,6 @@
    - US Census
   year: 2011
   country: United States of America
-  filename: us-states
+  filename: us-states-pop.geojson
   extension: geojson
   license: public-domain

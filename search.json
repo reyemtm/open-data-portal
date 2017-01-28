@@ -2,13 +2,12 @@
 layout: null
 ---
 [
-  {% for post in site.posts %}
+  {% for data in site.geodata %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | array_to_sentence_string }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}"
+      "name"    : "{{ data.name | escape }}",
+      "format"  : "{{ data.format }}",
+      "url"     : "{{data.filename}}",
+      "license" : "{{data.license}}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

@@ -1,7 +1,7 @@
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: base_url + '/search.json',
+  json: 'search.json',
   searchResultTemplate: '<li><a href="portal-geodata/{url}" title="name">{name}</a><br>Format:&nbsp;{format}<br>License:&nbsp;{license}</li>',
   noResultsText: '<li class="no-results">No results found.</li>',
   limit: 10,

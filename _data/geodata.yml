@@ -1,0 +1,9 @@
+- name: us-states
+  format: geojson
+  attribution:
+   - Mike Bostock
+   - US Census
+  year: 2011
+  country: United States of America
+  filename: us-states
+  extension: geojson

@@ -1,10 +1,10 @@
 - name: us-states
   format: geojson
-  attribution:
-   - Mike Bostock
-   - US Census
-  year: 2011
+  attribution: US Census
+  year: 2010
   country: United States of America
-  filename: us-states-pop.geojson
+  filename: us-states-pop-2010.geojson
   extension: geojson
   license: public-domain
+  simplified: true
+  
